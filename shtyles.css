@@ -1,0 +1,38 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+   
+    background-image: url("IMG_0294.jpg");
+	height: 100%; 
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+	font-size: 50px;
+  transform: translate(20%,20%);
+  color: white;
+  text-align: center;
+  font-family: 'roboto', sans-serif, bold;
+}
+h2 {
+  position: absolute;
+  top: 60%;
+  left: 54%;
+	font-size: 20px;
+  transform: translate(10%,10%);
+  color: white;
+  text-align: center;
+  font-family: 'roboto', sans-serif, light;
+}
+p {
+  margin: 0;
+  font-size: 1.5rem;
+}
