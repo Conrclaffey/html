@@ -23,12 +23,13 @@ h2 {
 
 h3 {
   position: auto;
+   display:inline-block;
   top: 45%;
   left: 54%;
   font-size: 60px;
    color: white;
   font-family: 'roboto', sans-serif, bold, italic;
-   line-height: 100%;
+border-bottom: 10px solid white;
   }
 
 
