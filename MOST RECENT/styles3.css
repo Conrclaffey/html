@@ -1,0 +1,87 @@
+body {
+  
+ 
+
+  background:
+    url(CLOUDYBACKGROUND.jpg) center no-repeat ,
+    url(CLOUDYBACKGROUND.jpg) repeat ;
+    url(CLOUDYBACKGROUND.jpg) repeat y ;
+    url(CLOUDYBACKGROUND.jpg) repeat ;
+}
+
+h2 {
+  position: absolute;
+  top: 45%;
+  left: 54%;
+	font-size: 20px;
+  padding-right: : 100px;
+  transform: translate(10%,10%);
+  color: white;
+  text-align: center;
+  font-family: 'roboto', sans-serif, light;
+}
+
+h3 {
+  position: auto;
+  top: 45%;
+  left: 54%;
+  font-size: 60px;
+   color: white;
+  font-family: 'roboto', sans-serif, bold, italic;
+   line-height: 100%;
+  }
+
+
+
+p {
+color: white;
+font-family: 'roboto', sans-serif, light;
+}
+
+div.gallery {
+    border: 0px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 0px solid  #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 30px;
+    text-align: left;
+    font-family: 'roboto', sans-serif, bold;
+  color:white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;

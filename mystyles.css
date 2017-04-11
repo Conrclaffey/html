@@ -1,0 +1,20 @@
+ 
+ 
+ h1 {h1 {
+     color:#FFFFFF;
+     font-family:Helvetica;
+     font-weight:bold; font-size: 20px
+}
+
+p {color:#FFFFFF}
+ 
+#container {
+     width: 900px;
+     margin: 0 auto;
+}
+
+.Contain {
+  height: 200px;
+  background-image: "IMG_0294.png";
+  background-size: contain;
+}

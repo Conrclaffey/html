@@ -1,0 +1,38 @@
+body {
+  
+ 
+
+  background:
+    url(IMG_0294.jpg) center no-repeat ,
+    url(IMG_0294.jpg) repeat ;
+    url(IMG_0294.jpg) repeat y ;
+    url(IMG_0294.jpg) repeat ;
+}
+
+h2 {
+  position: absolute;
+  top: 45%;
+  left: 54%;
+	font-size: 20px;
+  padding-right: : 100px;
+  transform: translate(10%,10%);
+  color: white;
+  text-align: center;
+  font-family: 'roboto', sans-serif, light;
+}
+
+h3 {
+  position: auto;
+  top: 45%;
+  left: 54%;
+  font-size: 60px;
+   color: white;
+  font-family: 'roboto', sans-serif, bold;
+  }
+
+
+
+p {
+color: white;
+font-family: 'roboto', sans-serif, light;
+}
